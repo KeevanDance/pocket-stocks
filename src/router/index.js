@@ -11,7 +11,7 @@ const Navigation = StackNavigator({
     navigationOptions: {
       headerTitle: 'Pocket Stocks',
       headerTitleStyle: { color: 'white' },
-      headerStyle: { backgroundColor: 'black', marginTop: (Platform.OS === 'android') ? Contants.statusBarHeight : 0 },
+      headerStyle: { backgroundColor: '#9B51E0', marginTop: (Platform.OS === 'android') ? Contants.statusBarHeight : 0 },
     }
   }
 })

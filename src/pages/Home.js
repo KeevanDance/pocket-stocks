@@ -1,10 +1,13 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 
+// containers
+import HomeContainer from '../containers/Home'
+
 
 const Home = props => (
   <View style={styles.background}>
-    <Text style={styles.white}>Hello, Home!</Text>
+    <HomeContainer />
   </View>
 )
 
